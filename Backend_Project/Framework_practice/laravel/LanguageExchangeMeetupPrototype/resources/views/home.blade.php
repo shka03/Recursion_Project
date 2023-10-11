@@ -1,5 +1,10 @@
 @extends('layouts.template')
 
+@section('styles')
+<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
+@endsection
+
 @section('content')
 <div class='container'>
     <p class='pt-4 pb-2'>Group near Los Angeles</p>

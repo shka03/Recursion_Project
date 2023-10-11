@@ -12,7 +12,7 @@
     <!-- fontawesome -->
     <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/styles.css">
+    @yield('styles')
 
     <title>Home</title>
 </head>
