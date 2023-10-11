@@ -6,7 +6,7 @@
  * 例：php artisan test tests/Feature/RoutingTest.php
  */
 
- namespace Tests\Feature;
+namespace Tests\Feature;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
@@ -14,9 +14,23 @@ use Tests\TestCase;
 
 class RoutingTest extends TestCase
 {
-    public function test_example(): void
+    public function testGetUrlHome(): void
     {
         $response = $this->get('/');
+
+        $response->assertStatus(200);
+    }
+
+    public function testGetUrlUsers(): void
+    {
+        $response = $this->get('/users');
+
+        $response->assertStatus(200);
+    }
+
+    public function testGetUrlMeetup(): void
+    {
+        $response = $this->get('/meetup');
 
         $response->assertStatus(200);
     }
