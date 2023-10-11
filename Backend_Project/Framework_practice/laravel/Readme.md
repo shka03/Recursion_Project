@@ -2,7 +2,7 @@
 
 下記、目的になります。
 
-1. お試しで Recursion のコース内容である laravel。そこで、Web App Framework をざっくり使用してどんなものかを知る。
+1. お試しで Recursion のコース内容である laravelで、Web App Framework をざっくり使用してどんなものかを知る。
 2. Recursion で学習してきたデザインパターンと OOP がどのように使われているかを見る。
 3. テスト経験を活かして、ユニットテストに挑戦する。
 
