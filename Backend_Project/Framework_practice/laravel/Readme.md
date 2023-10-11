@@ -12,6 +12,8 @@
 - 業務で、PHP の案件や経験を積む状況になるまでは、時間を割かない。
 
 # 開発環境
-
-- OS -> Windows & WSL2 /
-- Tool -> Docker Desktop / VSCode
+※詳細はdocker-compose.yml。
+- OS -> Windows & WSL2
+- 言語 -> PHP 8
+- DB -> MySQL 8.0
+- Tool -> DockerDesktop / VSCode
