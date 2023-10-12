@@ -12,6 +12,7 @@
     <!-- fontawesome -->
     <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet">
 
+    <!-- memo：publicフォルダのCSSが適用される。 -->
     @yield('styles')
 
     <title>Home</title>
