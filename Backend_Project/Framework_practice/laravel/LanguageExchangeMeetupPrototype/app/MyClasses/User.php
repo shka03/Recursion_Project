@@ -16,8 +16,17 @@ class User
     private array $targetLanguages; // string array
     private array $currentMeetingList; // Meetup array
 
-    public function __construct(string $username, string $firstName, string $lastName, string $gender, string $birthday, string $nativeLanguage, array $knownLanguages, array $targetLanguages, array $currentMeetingList)
-    {
+    public function __construct(
+        string $username,
+        string $firstName,
+        string $lastName,
+        string $gender,
+        string $birthday,
+        string $nativeLanguage,
+        array $knownLanguages,
+        array $targetLanguages,
+        array $currentMeetingList
+    ) {
         $this->username = $username;
         $this->firstName = $firstName;
         $this->lastName = $lastName;
