@@ -1,8 +1,8 @@
 <?php
 
+namespace app\MyClass;
+
 use Illuminate\Support\Carbon;
-use \Faker\Factory as FakerFactory;
-use Illuminate\Support\Arr;
 
 class User
 {
@@ -27,6 +27,12 @@ class User
         $this->knownLanguages = $knownLanguages;
         $this->targetLanguages = $targetLanguages;
         $this->currentMeetingList = $currentMeetingList;
+    }
+
+    public function getAge(): string
+    {
+        $age = Carbon::parse($this->birthday);
+        return $age;
     }
 
     // getter and setter start
