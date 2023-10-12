@@ -46,7 +46,6 @@ class Meeting
         // 追加を行い、部屋の言語の数を調べる。
         $this->participants[] = $participant;
 
-        // languageA と languageB の参加者数を数える
         $countLanguageA = 0;
         $countLanguageB = 0;
 
