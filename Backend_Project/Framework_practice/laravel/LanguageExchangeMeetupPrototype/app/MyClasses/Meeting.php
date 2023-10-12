@@ -1,6 +1,6 @@
 <?php
 
-namespace app\MyClass\Meeting;
+namespace app\MyClass;
 
 use app\MyClass\User;
 
